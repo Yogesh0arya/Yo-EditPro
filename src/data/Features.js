@@ -58,7 +58,7 @@ const Features = [
     ),
     desc: "Easy Background Music",
     content:
-      "Enhance your video&apos;s mood by adding background music effortlessly.",
+      "Enhance your videos mood by adding background music effortlessly.",
     isPresent: true,
   },
   {
