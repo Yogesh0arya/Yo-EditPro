@@ -35,4 +35,5 @@ A responsive web-based video editing interface built with Next.js and React that
    npm install
 
 2. **Development**
+   ```bash
    npm run dev
