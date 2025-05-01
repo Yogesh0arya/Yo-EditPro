@@ -1,6 +1,6 @@
 # Video Editing Platform - Frontend
 
-![Video Editing Platform Screenshot](./public/screenshot.png) *(Optional: Add actual screenshot path after creating one)*
+![Video Editing Platform Screenshot](./public/screenshot.png)
 
 ## Overview
 A responsive web-based video editing interface built with Next.js and React that allows users to upload, edit, and preview videos directly in their browser. This frontend implementation focuses on creating a realistic editing experience with mock APIs.
