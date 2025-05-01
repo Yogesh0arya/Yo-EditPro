@@ -37,7 +37,7 @@ function HomePage() {
               <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
                 Create stunning videos in minutes, not hours. Our online-based
                 platform gives you professional editing tools without the
-                learning curve. '
+                learning curve.
               </p>
               <div className="mt-8 flex space-x-4">
                 <Link href="/videoEditor" className="inline-flex">
