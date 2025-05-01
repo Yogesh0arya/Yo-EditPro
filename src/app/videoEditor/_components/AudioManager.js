@@ -67,34 +67,6 @@ export default function AudioManager() {
       .padStart(2, "0")}`;
   };
 
-  // Mock waveform render
-  // const renderWaveform = () => {
-  //   return (
-  //     <div className="h-12 bg-gray-100 rounded-md overflow-hidden flex items-center">
-  //       {/* This is just a mock waveform visualization */}
-  //       {Array.from({ length: 40 }).map((_, i) => {
-  //         const height = Math.random() * 100;
-  //         const isActive = (i / 40) * duration < currentTime;
-
-  //         return (
-  //           <div
-  //             key={i}
-  //             className={`w-1 mx-px ${
-  //               isActive ? "bg-blue-500" : "bg-gray-300"
-  //             }`}
-  //             style={{
-  //               height: `${Math.max(
-  //                 1,
-  //                 Math.min(12, Math.floor(height / 8)) * 4
-  //               )}px`,
-  //             }}
-  //           />
-  //         );
-  //       })}
-  //     </div>
-  //   );
-  // };
-
   return (
     <div className="space-y-4">
       <h3 className="font-medium flex items-center">

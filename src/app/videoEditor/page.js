@@ -493,16 +493,6 @@ function VideoEditorContent() {
                   Render Video
                 </Button>
               )}
-
-              {/* {isExportReady && (
-                <Button
-                  onClick={handleExport}
-                  variant="outline"
-                  className="w-full"
-                >
-                  Export & Download
-                </Button>
-              )} */}
             </div>
           </div>
         </div>

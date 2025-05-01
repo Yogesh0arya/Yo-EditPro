@@ -13,6 +13,7 @@ import {
 import Footer from "@/components/Footer";
 import Features from "@/data/Features";
 import { useState } from "react";
+import Image from "next/image";
 
 function HomePage() {
   const [moreFeatures, setMoreFeatures] = useState({
@@ -92,7 +93,9 @@ function HomePage() {
             </div>
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   className="w-full"
                   src="/person1.jpg"
                   alt="Video editing interface"
@@ -650,7 +653,9 @@ function HomePage() {
                 </CardDescription>
               </CardHeader>
               <CardFooter className="flex items-center mt-auto">
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   className="h-10 w-10 rounded-full"
                   src="/person2.jpg"
                   alt="User avatar"
@@ -701,7 +706,9 @@ function HomePage() {
                 </CardDescription>
               </CardHeader>
               <CardFooter className="flex items-center mt-auto">
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   className="h-10 w-10 rounded-full"
                   src="/person3.jpg"
                   alt="User avatar"
@@ -743,7 +750,9 @@ function HomePage() {
               </CardHeader>
 
               <CardFooter className="flex items-center mt-auto">
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   className="h-10 w-10 rounded-full"
                   src="/person1.jpg"
                   alt="User avatar"

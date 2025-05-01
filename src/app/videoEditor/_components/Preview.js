@@ -17,10 +17,11 @@ import {
   SkipBack,
   SkipForward,
   Film,
-  Image,
+  Image as ImageLucid,
   Music,
   Type,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function Preview() {
   const dispatch = useDispatch();
@@ -289,7 +290,9 @@ export default function Preview() {
                 opacity: image.style?.opacity || 1,
               }}
             >
-              <img
+              <Image
+                width={400}
+                height={400}
                 src={image.imageURL}
                 alt="Overlay"
                 className="w-full h-full object-contain"
@@ -446,7 +449,7 @@ export default function Preview() {
           {images.length > 0 && (
             <div className="flex items-center">
               <div className="w-16 text-white text-xs flex items-center">
-                <Image size={14} className="mr-1" /> Images
+                <ImageLucid size={14} className="mr-1" /> Images
               </div>
               <div className="flex-1 h-6 bg-gray-800 rounded relative">
                 {images.map((img) => {

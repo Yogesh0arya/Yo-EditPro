@@ -12,6 +12,7 @@ import { Input } from "../../../components/ui/input";
 import { Label } from "../../../components/ui/label";
 import { Slider } from "../../../components/ui/slider";
 import { Image as ImageIcon, Upload, Trash2, Move } from "lucide-react";
+import Image from "next/image";
 
 export default function ImageOverlay() {
   const dispatch = useDispatch();
@@ -220,7 +221,9 @@ export default function ImageOverlay() {
                 }`}
                 onClick={() => handleSelectImage(image.id)}
               >
-                <img
+                <Image
+                  width={400}
+                  height={400}
                   src={image.imageURL}
                   alt={image.name || "Overlay image"}
                   className="w-full h-20 object-cover"
