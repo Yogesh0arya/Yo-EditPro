@@ -32,3 +32,7 @@ A responsive web-based video editing interface built with Next.js and React that
    ```bash
    git clone https://github.com/Yogesh0arya/Yo-EditPro
    cd Yo-EditPro
+   npm install
+
+2. **Development**
+   npm run dev
