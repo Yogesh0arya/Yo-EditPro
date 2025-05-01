@@ -646,9 +646,9 @@ function HomePage() {
                 </CardTitle>
                 <CardDescription>
                   <p className="text-gray-700 mb-4 text-base">
-                    "Yo EditPro has completely transformed my workflow. What
-                    used to take me hours now takes minutes. This online editing
-                    platform is nothing short of revolutionary."
+                    &quot;Yo EditPro has completely transformed my workflow.
+                    What used to take me hours now takes minutes. This online
+                    editing platform is nothing short of revolutionary.&quot;
                   </p>
                 </CardDescription>
               </CardHeader>
@@ -698,10 +698,10 @@ function HomePage() {
                 </CardTitle>
                 <CardDescription>
                   <p className="text-gray-700 mb-4 text-base">
-                    "As someone with no formal editing training, Yo EditPro has
-                    been a game-changer. The intuitive interface and smart
+                    &quot;As someone with no formal editing training, Yo EditPro
+                    has been a game-changer. The intuitive interface and smart
                     templates help me create professional-quality videos in no
-                    time."
+                    time.&quot;
                   </p>
                 </CardDescription>
               </CardHeader>
@@ -742,9 +742,9 @@ function HomePage() {
                 </CardTitle>
                 <CardDescription>
                   <p className="text-gray-700 mb-4 text-base">
-                    "Our marketing team has increased video output by 300% since
-                    switching to Yo EditPro. All the features are particularly
-                    impressive."
+                    &quot;Our marketing team has increased video output by 300%
+                    since switching to Yo EditPro. All the features are
+                    particularly impressive.&quot;
                   </p>
                 </CardDescription>
               </CardHeader>
