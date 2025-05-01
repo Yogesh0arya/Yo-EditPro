@@ -24,7 +24,7 @@ A responsive web-based video editing interface built with Next.js and React that
 - Drag-and-drop interfaces with React DnD
 
 ## Live Demo
-[View Demo]([https://your-deployment-url.com](https://yo-edit-pro.vercel.app/))
+[View Demo](https://yo-edit-pro.vercel.app/)
 
 ## Installation
 
